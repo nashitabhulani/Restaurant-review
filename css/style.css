@@ -1,0 +1,513 @@
+/*css for all */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family:'Times New Roman', Times, serif;
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+.image1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+}
+/*css for containers */
+.container{
+     
+    width: 90%;
+    margin: 0 auto;
+    padding: 1%;
+}
+/* css for logo*/
+.background-image{
+    background-size:contain;
+    background-position: right;
+  
+    float: right;
+    width:11%;
+   
+}
+
+/*css for search bar*/
+.search input[type="search"]{
+    float:inline-end;
+    display:inline;
+    font-weight: bold;
+    width: 80%;
+    padding: 1%;
+    font-size:large;
+    border-color: #588c7e;
+    border-radius: 10px;
+    
+}
+.search input[type="submit"]{
+    float:right;
+    width:20%;
+    padding:1%;
+    font-size:larger;
+    background-color: #588c7e;
+    color:#96ceb4;
+    
+}
+.search{
+    background-color:#96ceb4;
+}
+/*css for menu*/
+.dropdown {
+    float:right;
+    overflow: hidden;
+  
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: left; 
+   
+  }
+  /* Dropdown button */
+.dropdown .dropbtn {
+     font-weight: bold;
+    background-color:inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  } 
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f4a688;
+    box-sizing: border-box;
+    border: 1px solid black;
+  } 
+  .dropdown content a{
+    float:none;
+    color:black;
+    padding: 12px 16px;
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:#588c7e;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.menu ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold ;
+   
+}
+.menu ul li a:hover{
+    color:#b5e7a0;
+}
+.menu
+{
+    text-align: left;
+    line-height: 100px;
+    background-color: #588c7e;
+}
+.menu ul li{
+    display: inline;
+    padding:1%;  
+}
+/*css for reviews*/
+
+.head1 strong{
+    font-family: poppins;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: #ccc;
+    box-sizing: border-box;
+    border: 1px solid #f4a688;
+    font-size: larger;
+    
+}
+.box4{
+    padding: 14px 28px;
+    font-size: 16px;
+   display: block;
+   width: 100%;
+    font-family:'Times New Roman', Times, serif;
+   background-color: beige;
+}
+
+.box4 button {
+    background-color: white;
+    border: 1px solid #f4a688; /* Green border */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    color: #333;
+  }
+  
+  .box4 button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .box4:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+  .box4 button:hover {
+    background-color: #eea29a;
+  }
+
+  .stars1{
+    float:right;
+    margin-left: 0px;
+
+  }
+
+.user strong{
+    display: flex;
+    text-align: right;
+    font-size: small;
+    justify-content: flex-end;
+}
+.user span{
+    display: flex;
+    text-align: right;
+    font-size: small;
+    justify-content: flex-end;
+}
+.name span{
+    display: flex;
+    text-align: left;
+    font-size: medium;
+    font-weight: bolder;
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+}
+/*css for restaurants*/
+
+
+.row{
+   box-sizing: border-box;
+ 
+}
+
+.row {
+    margin: 8px -15px;
+  }
+  
+.row,
+.row > .column {
+  padding: 7px;
+}
+.column {
+    float: left;
+    width: 23%;
+    
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 9px;
+  }
+  
+
+
+/* CSS FOR REVIEW PAGE*/
+.heading{
+    letter-spacing: 1px;
+    margin:30px 0px;
+    padding:10px 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+}
+.heading h1{
+    font-size: 2.2 rem;
+    font-weight: 500;
+    background-color:#588c7e;
+    color: white;
+    padding:10px 20px;
+}
+.heading span{
+    font-size: 1.5rem;
+    color:black;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.page2{
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: row;
+    width:100%;
+    box-sizing: border-box;
+}
+.box-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap ;
+    width:100%;
+}
+.rev1{
+    width:500px;
+    background-color: white;
+    padding:20px;
+    margin:15px;
+   /* box-shadow: 2px 2px 30px rgba(0,0,0,0.1);*/
+   border:1px solid #f4a688;
+    font-family: poppins;
+}
+.user1{
+    display: flex;
+    flex-direction: column;
+    font-family: poppins;
+}
+.stars{
+    color:#eea29a;
+  float: right;
+}
+.name1{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.background{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.value{
+    display:flex;
+   
+}
+
+.service{
+    display: flex;
+    
+}
+
+.atmosphere{
+    display: flex;
+    
+}
+
+.food{
+    display:flex;
+    
+}
+.ratings{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: poppins;
+}
+.star-widget label{
+    
+    color: #444;
+    direction: ltr;
+    float: inline-start;
+    transition: all 0.2s ease;
+  }
+  .star-widget input{
+    display: none;
+  }
+
+  input:not(:checked) ~ label:hover,
+  input:not(:checked) ~ label:hover ~ label{
+    color:#eea29a;
+  }
+  input:checked ~ label{
+    color:#eea29a;
+  }
+  
+
+/* CSS FOR ADMIN FORM*/
+
+.add{
+  padding:1%;
+  background-color: #5CA4A9;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+.add:hover{
+  background-color: #9BC1BC;
+}
+.btn{
+  padding:1%;
+  background-color: #b0c4b1;
+  font-weight:normal;
+  color: black;
+  display: inline-block;
+  align-items: center;
+  text-decoration: none;
+}
+.btn:hover{
+  background-color: #edafb8;
+}
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label{
+  color:#eea29a;
+}
+input:checked ~ label{
+  color:#eea29a;
+}
+
+input[type='text']{
+  height: 40px;
+}
+.form input[type="text"]{
+  display:block;
+padding:5px 8px;
+margin:8px 10px;
+  
+}
+
+.form input[type="password"]{
+  display:block;
+padding:5px 8px;
+margin:8px 10px;
+  
+}
+.button1{
+  padding:2%;
+  font-weight: bold;
+  background-color:#ED6A5A;
+  text-decoration: none;
+  color:black;
+  border:#5CA4A9;
+}
+.button1:hover{
+  background-color: #F4F1BB;
+}
+.button2{
+  padding:1%;
+  background-color: #9BC1BC;
+width: auto;
+font-weight: bolder;
+}
+.button2:hover{
+  background-color: #5CA4A9;
+}
+.login-page{
+  border:1px solid black;
+  width:50%;
+  margin:10% auto;
+  padding:2%;
+}
+.login-page h1{
+  text-align: center;
+}
+
+.wrapper{
+    
+  width: 90%;
+  margin: 0 auto;
+  padding: 1%;
+}
+  
+  .login-page{
+    border:1px solid black;
+    width:50%;
+    margin:10% auto;
+    padding:2%;
+}
+.login-page h1{
+    text-align: center;
+}
+.text{
+   
+text-align: center;
+}
+.table2{
+  width:30%;
+}
+
+.main-content{
+  margin:1% 0;
+  background-color:beige;
+}
+.full{
+  padding:1%;
+  width: 100%;
+}
+table tr th{
+   text-align: left;
+  border-bottom: 1px solid black;
+}
+table tr td{
+  padding:1%;
+}
+  
+  
+    
+  /*css for footer*/
+  .icon{
+    width: 3%;
+  }
+
+  /*css for restaurant page*/
+  .header strong{
+    letter-spacing: 1px;
+    padding:10px 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+}
+.header{
+    border: 1px solid #f4a688;
+}
+  .grid{
+    box-sizing: border-box;
+    
+    margin: 8px -15px;
+  }
+  .grid,
+  .grid>.sub{
+    padding: 14px;
+  }
+    .sub{
+    float: left;
+    width: 22%;
+  }
+  .grid:after{
+    display: table;
+    clear: both;
+  }
+  .stars2{
+    display: flex;
+  }
+  .info h3{
+    font-weight: bold;
+    font-family: poppins;
+  }
+  .info p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .menu2 {
+    background-color:#eea29a;
+  }
+  .menu1 a{
+     color:beige;
+     font-weight: bold;
+     text-decoration: none;
+  }
+  
+  .background{
+    background-image: url('images/reviews.jpeg');
+  }
